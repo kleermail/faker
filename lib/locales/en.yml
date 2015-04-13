@@ -154,8 +154,22 @@ en:
         - "#{Name.name}"
         - "#{Company.name}"
 
-    kmclient: 
-      name: ['Partners In Health']
+    km:
+      component:
+        type: ["Mailing", "Generic_Letter", "Outgoing_Envelope", "Personalized_Letter", "Brochure-Insert", "Reply_Envelope", "Postcard"]
+        personalization: ["InkJet", "Laser", "Pressure_Sensitive_Labels", "Piggyback_labels"]
+      
+      postage:
+        type: ["First_Class", "Presorted_First_Class", "Standard_Class", "Non-Profit"]
+        method: ["Indicia", "Live_Stamp", "Meter"]
+        proofing: ["PDF", "Live", "Other"]
 
-    kmsupplier:
-      name: ['ABC Printing', 'ACME Printing', 'Advanced Response Systems', 'Artco', 'DS Graphics', 'IBS Direct', 'Hannaford & Dumas']
+      client: 
+        name: ['Partners In Health', 'Springstone', 'ULI Boston']
+
+      supplier:
+        name: ['ABC Printing', 'ACME Printing', 'Advanced Response Systems', 'Artco', 'DS Graphics', 'IBS Direct', 'Hannaford & Dumas', 'Quad Graphics']
+
+
+
+
