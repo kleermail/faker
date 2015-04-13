@@ -153,3 +153,9 @@ en:
       author:
         - "#{Name.name}"
         - "#{Company.name}"
+
+    kmclient: 
+      name: ['Partners In Health']
+
+    kmsupplier:
+      name: ['ABC Printing', 'ACME Printing', 'Advanced Response Systems', 'Artco', 'DS Graphics', 'IBS Direct', 'Hannaford & Dumas']
